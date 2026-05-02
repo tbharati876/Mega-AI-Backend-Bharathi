@@ -1,3 +1,4 @@
+# Demo version using ngrok for public access (runs in Colab)
 import base64, io, numpy as np
 from PIL import Image, ImageDraw
 import face_recognition
