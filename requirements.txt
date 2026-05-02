@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pillow
+face_recognition
+sqlalchemy
+numpy
