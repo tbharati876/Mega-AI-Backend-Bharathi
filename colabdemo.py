@@ -175,4 +175,5 @@ print("PUBLIC URL:", public_url)
 config = uvicorn.Config(app, host="0.0.0.0", port=8000, loop="asyncio")
 server = uvicorn.Server(config)
 
-await server.serve()
+import asyncio
+asyncio.run(server.serve())
