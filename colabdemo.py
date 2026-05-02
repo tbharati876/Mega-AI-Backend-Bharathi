@@ -1,4 +1,3 @@
-# Demo version using ngrok for public access (runs in Colab)
 import base64, io, numpy as np
 from PIL import Image, ImageDraw
 import face_recognition
@@ -34,7 +33,6 @@ class ROI(Base):
     timestamp = Column(DateTime, default=datetime.utcnow)
 
 Base.metadata.create_all(bind=engine)
-
 
 # FACE DETECTION (NO OpenCV)
 
@@ -178,3 +176,4 @@ config = uvicorn.Config(app, host="0.0.0.0", port=8000, loop="asyncio")
 server = uvicorn.Server(config)
 
 await server.serve()
+
