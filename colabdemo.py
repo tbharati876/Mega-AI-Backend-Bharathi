@@ -13,7 +13,7 @@ from pyngrok import ngrok
 
 nest_asyncio.apply()
 
-NGROK_AUTH_TOKEN = "PASTE_NGROK_TOKEN_HERE"
+NGROK_AUTH_TOKEN = "36mSHpSl4DWk4VZO6zTudKO3Piz_2ReYvKNYAz8zPKgUJRMxH"
 ngrok.set_auth_token(NGROK_AUTH_TOKEN)
 
 # DATABASE (SQLite)
@@ -177,4 +177,4 @@ print("PUBLIC URL:", public_url)
 config = uvicorn.Config(app, host="0.0.0.0", port=8000, loop="asyncio")
 server = uvicorn.Server(config)
 
-import asyncio; asyncio.run(server.serve())
+await server.serve()
