@@ -1,5 +1,3 @@
-!pip install face_recognition
-!pip install pyngrok
 import base64, io, numpy as np
 from PIL import Image, ImageDraw
 import face_recognition
