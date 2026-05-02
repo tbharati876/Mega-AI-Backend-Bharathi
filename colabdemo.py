@@ -1,3 +1,5 @@
+!pip install face_recognition
+!pip install pyngrok
 import base64, io, numpy as np
 from PIL import Image, ImageDraw
 import face_recognition
@@ -176,4 +178,3 @@ config = uvicorn.Config(app, host="0.0.0.0", port=8000, loop="asyncio")
 server = uvicorn.Server(config)
 
 await server.serve()
-
