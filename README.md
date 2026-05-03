@@ -1,5 +1,4 @@
-## Demo Video Link:
-https://drive.google.com/file/d/1ndsy2fWn8NQ3YP1ZjmtIL2NTLEERz3CY/view?usp=sharing
+
 
 ## Colab Code Notebook Link:
 https://colab.research.google.com/drive/1tGCsteEfUexblZQtd0q8YEZJsvxwi3nK?usp=sharing
