@@ -12,7 +12,7 @@ from pyngrok import ngrok
 
 nest_asyncio.apply()
 
-NGROK_AUTH_TOKEN = "Paste_NGROK_Token_here"
+NGROK_AUTH_TOKEN = "PASTE_NGROK_Token_here"
 ngrok.set_auth_token(NGROK_AUTH_TOKEN)
 
 # DATABASE (SQLite)
