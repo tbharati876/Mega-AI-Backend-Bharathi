@@ -1,8 +1,5 @@
 
 
-## Colab Code Notebook Link:
-https://colab.research.google.com/drive/1tGCsteEfUexblZQtd0q8YEZJsvxwi3nK?usp=sharing
-
 # Real-Time Face Detection Video Streaming System
 
 ## Overview
